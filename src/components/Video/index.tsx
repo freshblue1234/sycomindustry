@@ -13,8 +13,8 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Experience SyBot AI in Action"
+            paragraph="See how our artificial intelligence solutions are empowering businesses across Rwanda with intelligent automation, natural language processing, and contextual understanding capabilities."
             center
             mb="80px"
           />
@@ -26,13 +26,13 @@ export default function Video() {
                 <div className="relative aspect-77/40 items-center justify-center">
                   <Image
                     src="/images/video/image.png"
-                    alt="video image"
+                    alt="SyBot AI demo video"
                     className="object-cover"
                     fill
                   />
                   <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                     <button
-                      aria-label="video play button"
+                      aria-label="Play SyBot demonstration video"
                       onClick={() => setOpen(true)}
                       className="text-primary flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white/75 transition hover:bg-white"
                     >
@@ -62,7 +62,7 @@ export default function Video() {
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         channel="youtube"
-        videoId="L61p2uyiMSo"
+        videoId="L61p2uyiMSo" // You should replace this with your actual SyBot demo video ID
       />
     </>
   );

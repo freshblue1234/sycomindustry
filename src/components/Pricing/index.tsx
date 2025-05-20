@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Intelligent Pricing for Forward-Thinking Solutions"
+          paragraph="Unlock the full potential of SyBot AI with flexible pricing plans designed for businesses at every stage of digital transformation in Rwanda and beyond."
           center
           width="665px"
         />
@@ -59,43 +59,43 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="AI Explorer"
+            price={isMonthly ? "49" : "470"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Essential AI capabilities for startups and small businesses beginning their digital transformation journey."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Basic SyBot Integration" status="active" />
+            <OfferList text="Natural Language Processing" status="active" />
+            <OfferList text="Up to 1,000 AI Interactions/Month" status="active" />
+            <OfferList text="Community Support" status="active" />
+            <OfferList text="Custom AI Training" status="inactive" />
+            <OfferList text="Advanced Analytics Dashboard" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            packageName="Intelligence Suite"
+            price={isMonthly ? "149" : "1490"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Advanced AI solutions for growing businesses ready to leverage machine learning for competitive advantage."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Enhanced SyBot Capabilities" status="active" />
+            <OfferList text="Multi-platform Integration" status="active" />
+            <OfferList text="Up to 10,000 AI Interactions/Month" status="active" />
+            <OfferList text="Priority Email Support" status="active" />
+            <OfferList text="Custom AI Training" status="active" />
+            <OfferList text="Advanced Analytics Dashboard" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Enterprise Intelligence"
+            price={isMonthly ? "349" : "3490"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Comprehensive AI ecosystem for enterprises seeking transformative business intelligence and automation."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Full SyBot Customization" status="active" />
+            <OfferList text="Enterprise-grade Integration" status="active" />
+            <OfferList text="Unlimited AI Interactions" status="active" />
+            <OfferList text="24/7 Dedicated Support" status="active" />
+            <OfferList text="Advanced AI Model Training" status="active" />
+            <OfferList text="Predictive Analytics Suite" status="active" />
           </PricingBox>
         </div>
       </div>

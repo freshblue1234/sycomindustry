@@ -1,12 +1,13 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Link from "next/link";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "Blog Page | Sycom Industry – AI & App Development in Rwanda",
+  description: "Explore insights, innovations, and updates from Sycom Industry – your trusted partner in artificial intelligence and smart application development in Rwanda.",
   // other metadata
 };
 
@@ -15,7 +16,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Discover the latest trends, insights, and updates in artificial intelligence and application development from Sycom Industry, proudly based in Rwanda."
       />
 
       <section className="pt-[120px] pb-[120px]">
@@ -35,36 +36,38 @@ const Blog = () => {
             <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">
                 <li className="mx-1">
-                  <a
-                    href="#0"
+                  <Link
+                    href="#"
                     className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    aria-label="Previous page"
                   >
                     Prev
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                  <Link
+                    href="#"
+                    className="bg-primary text-white flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition"
+                    aria-current="page"
                   >
                     1
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-1">
-                  <a
-                    href="#0"
+                  <Link
+                    href="#"
                     className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
                   >
                     2
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-1">
-                  <a
-                    href="#0"
+                  <Link
+                    href="#"
                     className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
                   >
                     3
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-1">
                   <span className="bg-body-color/15 text-body-color flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md px-4 text-sm">
@@ -72,20 +75,21 @@ const Blog = () => {
                   </span>
                 </li>
                 <li className="mx-1">
-                  <a
-                    href="#0"
+                  <Link
+                    href="#"
                     className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
                   >
                     12
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-1">
-                  <a
-                    href="#0"
+                  <Link
+                    href="#"
                     className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    aria-label="Next page"
                   >
                     Next
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -95,5 +99,6 @@ const Blog = () => {
     </>
   );
 };
+
 
 export default Blog;

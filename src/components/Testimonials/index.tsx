@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Emmanuel Mugisha",
+    designation: "CTO @RwandaTech",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Sycom's AI solutions have transformed our business operations completely. Sybot is incredibly intuitive and provides accurate responses that feel genuinely human. The best AI assistant in the East African market.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Marie Uwase",
+    designation: "Founder @KigaliStartups",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Integrating Sybot into our customer service workflow reduced response times by 75%. Sycom's technical support team ensured a seamless transition to AI-powered communication that our clients love.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Jean-Paul Hakizimana",
+    designation: "Director @RwandaInnovation",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As Rwanda's tech ecosystem grows, Sycom Industries stands out with their groundbreaking AI developments. Sybot demonstrates the cutting-edge innovation happening right here in Kigali that competes globally.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Partners Say About Sybot"
+          paragraph="Sycom Industries is pioneering artificial intelligence solutions in Rwanda. Our flagship product Sybot is transforming how businesses interact with customers through advanced natural language processing and machine learning technology."
           center
         />
 

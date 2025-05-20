@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Rwanda's Premier AI Solutions Provider"
+                paragraph="At Sycom, we focus on developing innovative artificial intelligence solutions tailored for African challenges, with our flagship AI assistant Sybot leading our mission to make advanced technology accessible across Rwanda."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Multilingual AI Capabilities" />
+                    <List text="Kinyarwanda-Optimized" />
+                    <List text="African Context Integration" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Advanced NLP Technology" />
+                    <List text="Local Innovation Hub" />
+                    <List text="Developer API Access" />
                   </div>
                 </div>
               </div>
@@ -52,14 +52,14 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
+                  src="/images/about/sybot-light.svg"
+                  alt="sybot-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
+                  src="/images/about/sybot-dark.svg"
+                  alt="sybot-image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />

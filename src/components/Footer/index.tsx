@@ -13,22 +13,21 @@ const Footer = () => {
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-2.svg"
-                    alt="logo"
+                    alt="Sycom AI logo"
                     className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    width={180}
+                    height={40}
                   />
                   <Image
                     src="/images/logo/logo.svg"
-                    alt="logo"
+                    alt="Sycom AI logo"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={180}
+                    height={40}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Sycom is Rwanda's pioneering artificial intelligence company, specializing in custom AI solutions and innovative applications. Our flagship product, Sybot, is revolutionizing how businesses interact with technology.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -125,10 +124,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/solutions"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Solutions
                     </Link>
                   </li>
                   <li>
@@ -137,6 +136,22 @@ const Footer = () => {
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/case-studies"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Case Studies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/sybot-demo"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Sybot Demo
                     </Link>
                   </li>
                 </ul>
@@ -151,7 +166,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/terms"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       TOS
@@ -159,7 +174,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy
@@ -167,7 +182,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/refund"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Refund Policy
@@ -193,10 +208,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/api-docs"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      API Documentation
                     </Link>
                   </li>
                   <li>
@@ -207,6 +222,14 @@ const Footer = () => {
                       About
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/sybot-training"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Sybot Training
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -215,24 +238,7 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
+              © 2025 Sycom AI. Pioneering artificial intelligence solutions in Rwanda.
             </p>
           </div>
         </div>
