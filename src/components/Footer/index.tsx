@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo 2.svg"
                     alt="Sycom AI logo"
                     className="w-full dark:hidden"
                     width={180}
