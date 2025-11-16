@@ -172,7 +172,7 @@ const Header = () => {
                   Sign Up
                 </Link>
                 <a
-                  href="https://wa.me/250782858703"
+                  href="https://wa.me/250784090113"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg mx-2 transition duration-300 flex items-center"
